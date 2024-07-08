@@ -1,0 +1,71 @@
+Leetcode 104  - Max Depth of BinaryTree - Lec 1_3
+
+LeetCode 543 - Diameter of a Tree  - Lec 1_4
+
+LeetCode 110 - Balanced Binary Tree - Lec 1 HW
+
+LeetCode 100 - Same Tree - Lec 1 HW
+
+LeetCode 236 - Lowest Common Ancestor of Binary Tree - ( Microsoft interview ) --   Lec 2_2
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+*Max Depth of the tree:
+class Solution {
+public:
+   int helper(TreeNode* node)
+    {
+        if(!node) return 0;
+        return max(helper(node->left), helper(node->right))+1;
+        
+    }
+    int maxDepth(TreeNode* root) {
+        return helper(root);
+    }
+
+};
+
+Solution 2(depth of the tree):
+queue<TreeNode*>q;
+        int height=0;
+        q.push(root);
+        q.push(NULL);
+        while(!q.empty())
+        {
+            
+            TreeNode *temp= q.front();
+            q.pop();      
+                if(temp==NULL)
+                {
+                    // cout<<endl;
+                    if(!q.empty())
+                    {   height++;
+                        q.push(NULL);
+                    }
+                }
+
+                else
+                {
+                    // cout<<temp->data;
+                    if(temp->left)
+                    {   
+                        q.push(temp->left);
+                    }
+                    if(temp->right)
+                    {   
+                        q.push(temp->right);
+                    }
+                }
+        }
+        // cout<<"The height of the given tree is : "<<height;   
+        return height+1;
+

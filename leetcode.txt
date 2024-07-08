@@ -1,0 +1,22 @@
+// * marked ko doobara karo zarur
+
+Linked List :
+206 Reverse a List
+141,142 - Loop in list
+234- Palindrome lIst
+1836 *- Remove duplicates from a list(unsorted)
+21 - Merge two unsorted linked lists into a single list
+138* - Copy list with random pointer (create a deep copy of list)
+
+Recursion :
+70* - Climb Stairs
+
+
+Daily Practice 2 Leetcode Questions:
+
+19th June'24 (DPP)
+75* - Sort Colors - See approach writtern in copy (HINT -  >>>                                                                                         teen ptr use kro)
+287* - Find the duplicate element in array
+
+23th June'24 (DPP)
+*Basic Calculator

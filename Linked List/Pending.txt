@@ -1,0 +1,28 @@
+* Lec 1:
+* Dynamic memory allocation uses ;
+
+* Lec2:
+* Insertion at a specific value
+* Implement circular linked list
+* Implement doubly circular linked list
+* Implemnet questoins using hashmap
+* Lec 4:
+* Check if linked list is a palindrome ?
+* Remove duplicate elements from unsorted list
+* 6. Add 1 to a linked list
+
+
+
+
+
+DONE :
+
+    Lec 1:
+    
+    *When/Why we pass the obj pointer by reference and when by value ?  - Check LLImp.cpp
+    *A pointer holds an address so its value also should do the same task like reference? - Check LLImp.cpp
+    
+    Lec 4:
+    
+    *reverse krna try kro with only parameter as the head;
+    *Merge two linked lists into a single list Leetcode : 21

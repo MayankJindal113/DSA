@@ -1,0 +1,3 @@
+Identify different patterns that exist in DSA, and try thinking of a solution using those patters if can't find any other solution
+
+~Two pointer - Start one ptr from first and one from last element
