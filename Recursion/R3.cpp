@@ -1,7 +1,7 @@
 // Return true/flase if array sorted or not
 // Binary Search using Recursion
 // IMPORTANT : Print the subsequence of a given string : Main concept to include/exclude an element in alternate pass
-// Find the subsequence using bit masking
+// HW : Find the subsequence using bit masking - DONE 
 
 #include<iostream>
 #include<vector>
@@ -150,17 +150,12 @@ int main()
 //         val.push_back(A[i]);
 //         return slv;
 //     }
-    
 //     slv(A, i+1, p , val);
-    
 //     prod*=A[i];
-    
 //     slv(A, i, p , val);
 // }
-
 // int solve(int n, int p, vector<int> A) {
 //     // Write your code here
-
 //     vector<int>a;
 //     int i = 0;
 //     vector<int> val = slv(A,i,p,a);

@@ -22,9 +22,9 @@ int main()
     cout << a.back()<<endl;
     // begin returns a pointer to the first element of the vector and end returns ptr to the theoratical element after the last element
     cout <<* a.begin()<<endl;
-    cout<< * a.end()<<endl;
-    cout << * (a.end()-1);
-    a.size();
+    cout << * a.end()<<endl;
+    cout << * (a.end()-1)<<endl;
+    cout <<a.size();
 
     sort(a.begin(),a.end());
     // push_back()

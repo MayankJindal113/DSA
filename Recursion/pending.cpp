@@ -1,8 +1,7 @@
-// Class III:
-// Find the subsequence of a string using bitmasking
-
 // Class IV : 
-// Solve, coin exchange using the inclusion-exxclusion concept
+// Solve, coin exchange using the inclusion-exclusion concept
+
+
 
 // HW Questions : 
 // Solve - House Robbery I
@@ -21,3 +20,8 @@
 // Min cost for tickets
 // Number of dice roll with target sum
 // Learn dry runs of basic sorting and searching methods
+
+// DONE : 
+
+// Class III:
+// Find the subsequence of a string using bitmasking - Check Bitmasking topic(folder)
