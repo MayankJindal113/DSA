@@ -1,5 +1,5 @@
-//  If we pass variables/arrays by reference instead of value, it decreases the space complexity
-//  Also in some case it may affect time complexity too
+//  VIMP** - If we pass variables/arrays by reference instead of value, it decreases the space complexity
+//  VIMP** - Also in some case it may affect time complexity too (TESTED BY MAYANK JINDAL)
 
 // Min/Max element of array, index of a char in string
 // A number given print all the digits of it

@@ -1,7 +1,7 @@
 
 // Lecture II:
 // In-place merge sort using, quickSort
-
+// Find the complextity of, permutations of a string
 
 // DONE : 
 // Lecture I :

@@ -1,6 +1,7 @@
 // Return true/flase if array sorted or not
 // Binary Search using Recursion
 // IMPORTANT : Print the subsequence of a given string : Main concept to include/exclude an element in alternate pass
+//  THERE IS A DIFFERENCE BETWEEN Subsequence and Substring and permutations of string CHECK FILE - SUBSTRING.CPP IN STAR COMCEPTS
 // HW : Find the subsequence using bit masking - DONE 
 
 #include<iostream>
@@ -107,6 +108,7 @@ void subString(string &a, string op, int i, vector<string> &b)
     // op = op + a[i]; Concatenation
     subString(a, op, i+1,b);
 }
+
 
 int main()
 {

@@ -1,4 +1,4 @@
-// * marked ko doobara karo zarur
+// *marked ko doobara karo zarur
 
 Linked List :
 206 Reverse a List
@@ -10,6 +10,9 @@ Linked List :
 
 Recursion :
 70* - Climb Stairs
+1910* - Remove all occurances of substring 
+121* - Buy/Sell Stocks (solve in O(n))
+198 - House Robber (Just read the question, easy)
 
 
 Daily Practice 2 Leetcode Questions:
@@ -19,4 +22,4 @@ Daily Practice 2 Leetcode Questions:
 287* - Find the duplicate element in array
 
 23th June'24 (DPP)
-*Basic Calculator
+*Basic Calculator - Pending-224
