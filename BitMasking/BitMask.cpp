@@ -3,6 +3,7 @@
 //  &  |: and operation 
 //  ~ : Not
 //  ^ : XOR operation 
+// Check for The ques on bit-masking in Recursion :R3_HW_bitmasking.cpp
 
 #include<iostream>
 #include<cmath>
@@ -11,7 +12,8 @@ using namespace std;
 
 int main()
 {
-    unsigned char a = 5;
+    //unsigned char a = 5;
+    int a = 5;
     cout << (a << 2)<<endl;  // This converts the value of a into an int type
     cout<< a << typeid(a).name()<< endl;   // Here the var a  is still a char as the shift doesnt assign the value to the operand
     a=a<< 2;

@@ -6,8 +6,6 @@
 // Subarray priority
 // Integer to english words
 // Number of digit one
-// Wild card pattern matching
-// House robbery
 // Perfect square Problem
 // Min cost for tickets
 // Number of dice roll with target sum
@@ -25,3 +23,5 @@
 // Recursively remove all occurance of a character
 // Buy-Sell stocks - Leetcode 121*
 // Solve - House Robbery I 
+// Wild card pattern matching
+// House robbery

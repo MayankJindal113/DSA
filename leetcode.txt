@@ -1,5 +1,7 @@
 // *marked ko doobara karo zarur
 
+String : 242 - Valid Anagram
+
 Linked List :
 206 Reverse a List
 141,142 - Loop in list
@@ -13,12 +15,19 @@ Recursion :
 1910* - Remove all occurances of substring 
 121* - Buy/Sell Stocks (solve in O(n))
 198 - House Robber (Just read the question, easy)
+44* - Wild Card Matching
 
+Backtracking : 
+51* - N-Queens
+
+HashMap : 
+GFG : UNION OF 2 LINKED LISTS : https://www.geeksforgeeks.org/problems/union-of-two-linked-list/1 - Read it once and think about the solution
+242 - Valid Anagram
 
 Daily Practice 2 Leetcode Questions:
 
 19th June'24 (DPP)
-75* - Sort Colors - See approach writtern in copy (HINT -  >>>                                                                                         teen ptr use kro)
+75* - Sort Colors - See approach writtern in copy (HINT -  >>>                                                                                            teen ptr use kro)
 287* - Find the duplicate element in array
 
 23th June'24 (DPP)
