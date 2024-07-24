@@ -45,4 +45,11 @@ int main()
         cout << i.first<< "->"<<i.second<<endl;
     }
 
+    // Iterator: on the created map :
+    unordered_map<string,int>::iterator it = m.begin ();
+    while(it != m.end()){
+        cout << it->first<< "->"<<it->second<<endl;
+        it++;
+    }
+
 }
