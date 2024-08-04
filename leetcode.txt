@@ -25,6 +25,9 @@ GFG : UNION OF 2 LINKED LISTS : https://www.geeksforgeeks.org/problems/union-of-
 242 - Valid Anagram
 GFG : *https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
 
+Trees:
+102* - Level order Traversal
+
 
 Daily Practice 2 Leetcode Questions:
 

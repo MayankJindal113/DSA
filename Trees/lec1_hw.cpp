@@ -4,6 +4,7 @@
 
 
 #include<iostream>
+#include<queue>
 #include<vector>
 using namespace std;
 
@@ -21,6 +22,27 @@ class Node
         right=NULL;
     }
 };
+
+void level_order(Node* root){
+    queue<Node*>nodes;
+    nodes.push(root);
+    nodes.push(NULL);
+        while(!nodes.empty())
+        {
+            Node* ele = nodes.front();
+            nodes.pop();
+            if (ele!= NULL)
+            {
+                cout << ele->data<<" ";
+                if(ele->left){nodes.push(ele->left);}
+                if(ele->right){nodes.push(ele->right);}
+            }
+            else if (!nodes.empty()){
+                cout<< endl;
+                nodes.push(NULL);
+            }
+        }
+}
 
 
 Node* buildTree(int &flag)
@@ -46,13 +68,13 @@ Node* buildTree(int &flag)
 }
 
 vector<int> postorder(Node* root,vector<int>&nodes) // postorder Traversal - Firstly tried it out using inorder but one case wasnt satisfied
+
+{
 // i.e :: 
 //      1      1
 //     |        |
 //    1          1
-
 // As in this case the inorder traversals for both came out to be the same
-{
     
     if(root==NULL)
     {
@@ -118,32 +140,37 @@ bool areVectorsmirror(const vector <int>&vec1,const vector <int>&vec2){
 }
 
 
+
 int main()
 {
     int nodes1=0;
-    int nodes2=0;
+    // int nodes2=0;
     Node* treeRoot1= buildTree(nodes1);
-    Node* treeRoot2= buildTree(nodes2);
-    cout<<"Tree Created Successfully"<<endl<<"Tree Root Node returned";
-    cout<<endl<<"Number of nodes in the tree1 :"<<nodes1;
-    cout<<endl<<"Number of nodes in the tree2 :"<<nodes2;
-    cout<<endl;
+    // Node* treeRoot2= buildTree(nodes2);
+    // cout<<"Tree Created Successfully"<<endl<<"Tree Root Node returned";
+    // cout<<endl<<"Number of nodes in the tree1 :"<<nodes1;
+    // cout<<endl<<"Number of nodes in the tree2 :"<<nodes2;
+    // cout<<endl;
+
+    level_order(treeRoot1);
 
     vector<int>nodesv1;
     vector<int>nodesv2;
 
-    vector <int>n1 = inorder(treeRoot1 , nodesv1);
-    vector <int>n2 = inorder(treeRoot2 , nodesv2);
+    // vector <int>n1 = inorder(treeRoot1 , nodesv1);
+    // vector <int>n2 = inorder(treeRoot2 , nodesv2);
+
 
     // std::reverse(n2.begin(),n2.end());
 
     // int result = areVectorsEqual(n1,n2);
-    if(areVectorsmirror(n1,n2)){
-        cout<<"Mirror";
-    }
-    else{
-        cout<<"Not-Mirror";
-    }
+
+    // if(areVectorsmirror(n1,n2)){
+    //     cout<<"Mirror";
+    // }
+    // else{
+    //     cout<<"Not-Mirror";
+    // }
 
     // if(result==1)
     // {
