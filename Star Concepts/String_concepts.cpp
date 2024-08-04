@@ -14,7 +14,7 @@ int main()
 
     int len_str2 = str.size();
     // nums.size(); Not allowed
-    int len = sizeof(nums)/sizeof(*nums);
+    int len = sizeof(nums)/sizeof(*nums);  //This is allowed as its an array of characters
     // cout << len << endl;
     // cout << len_str2  << endl;
     
@@ -27,7 +27,10 @@ int main()
     
     // HERE THE CHARACTERS, GET SORTED ON THE BASIS OF THEIR ASCII CODES : CHECK ASCII TABLE FOR REFERENCE: 
     // AND THE ASCII OF NUMERIC CHARACTERS ; LIKE 0,1,2,3,4,5,... ARE NOT EQUAL TO THEIR NUMERIC VALUE;
+    // https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
     for(int i= 0 ; i<nayistr.size();i++){
     cout <<nayistr[i]<<endl;
     }
+
+    // push_back() function needs a char type as the argument, thus push_back("a") throws an error while push_back('a') is correct 
 }
