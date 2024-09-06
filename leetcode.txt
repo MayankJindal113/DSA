@@ -27,12 +27,19 @@ GFG : *https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
 
 Trees:
 102* - Level order Traversal
+104  - Max Depth of BinaryTree - Lec 1_3
+543* - Diameter of a Tree  - Lec 1_4
+100 - Same Tree - Lec 1 HW
+110 - Balanced BinaryTree
+SUM TREE - https://www.geeksforgeeks.org/problems/sum-tree/1
+236* - Lowest common ancestor
+113 - https://leetcode.com/problems/path-sum-ii/description/
 
 
 Daily Practice 2 Leetcode Questions:
 
 19th June'24 (DPP)
-75* - Sort Colors - See approach writtern in copy (HINT -  >>>                                                                                            teen ptr use kro)
+75* - Sort Colors - See approach writtern in copy (HINT -  >>>                                                                                                          teen ptr use kro)
 287* - Find the duplicate element in array
 
 23th June'24 (DPP)

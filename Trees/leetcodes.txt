@@ -1,12 +1,14 @@
 Leetcode 104  - Max Depth of BinaryTree - Lec 1_3
 
-LeetCode 543 - Diameter of a Tree  - Lec 1_4
-
-LeetCode 110 - Balanced Binary Tree - Lec 1 HW
+*LeetCode 543 - Diameter of a Tree  - Lec 1_4
 
 LeetCode 100 - Same Tree - Lec 1 HW
 
+LeetCode 110 - Balanced Binary Tree - Lec 1 HW
+
 LeetCode 236 - Lowest Common Ancestor of Binary Tree - ( Microsoft interview ) --   Lec 2_2
+
+LeetCode 113 - Path Sum II
 
 /**
  * Definition for a binary tree node.

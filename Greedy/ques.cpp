@@ -1,4 +1,9 @@
+// WHAT IS THE DIFFERNECE BETWEEN A QUES TAGGED AS GREEDY VS NORMAL; LIKE WHAT MAKES IT COME UNDER THE GREEDY ALGO TAG ?
+
+
 // VIDES LEC : https://www.youtube.com/watch?v=HZOUwKCKF5o&t=1740s
+
+// FOR THE START MARKED QUESTIONS, TRY THEM ONCE AGAIN, FOR THE REST JUST GO THROUGH THE QUES ONCE
 
 // SOLVED :
 
@@ -14,12 +19,12 @@
 
 // IMP : Fractional Knapsack : https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
 
-
+// **Job Sequencing : https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
 
 // PENDING :
 
 // Min cost of ropes: https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1
 // Huffman encoding : https://www.geeksforgeeks.org/problems/huffman-encoding3345/1
 
-
+// Activity Selection - HW
 // Max meeting in one room - HW

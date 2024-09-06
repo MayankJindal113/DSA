@@ -1,6 +1,9 @@
-// Lowest Common Ancestor of Binary Tree - ( Microsoft interview ) --  236 Leetcode
+// *Lowest Common Ancestor of Binary Tree - ( Microsoft interview ) --  236 Leetcode
 // Kth Ancestor
 // HW - Solve using vector
+// Path Sum II (113 Leetcode)
+// Convert the tree to Sum Tree - : GFG Practice : (Just think of the approach)
+// https://www.geeksforgeeks.org/problems/transform-to-sum-tree/1
 
 #include <iostream>
 #include <vector>
@@ -60,14 +63,12 @@ vector<int> inorder(tree *root, vector<int> &nodes)
 
 // bool find(tree *root, int p, int &k, int &anc)
 // {
-
 //     if (k == 0)
 //     {
 //         anc = root->val;
 //         cout << "k th ancestor of " << p << "is " << anc << endl;
 //         k--;
 //     }
-
 //     if (root == NULL)
 //     {
 //         return false;
@@ -88,9 +89,6 @@ vector<int> inorder(tree *root, vector<int> &nodes)
 //         return false;
 //     }
 // }
-
-
-
 
 bool kAncestor(tree *root, int p, int &k)
 {

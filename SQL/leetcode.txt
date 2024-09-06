@@ -1,0 +1,9 @@
+https://leetcode.com/studyplan/top-sql-50/
+
+Repeat these questions of sql, from the top 50 sql list:
+
+https://leetcode.com/problems/find-customer-referee/?envType=study-plan-v2&envId=top-sql-50
+
+https://leetcode.com/problems/article-views-i?envType=study-plan-v2&envId=top-sql-50
+
+https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/?envType=study-plan-v2&envId=top-sql-50

@@ -3,7 +3,9 @@
 // Fully(perfect) Binary tree- complete - all nodes with 2 childs , except leaf
 // Complete - Nodes from left to right filled
 // **Balanced Binary Tree - Max df in height <= 1 of left and right subtree for every node
-// **Convert the given tree into Sum Tree - the node should be equal to the sum of its descendant nodes and itself
+// Convert the given tree into Sum Tree - the node should be equal to the sum of its descendant nodes and itself :
+// https://www.geeksforgeeks.org/problems/sum-tree/1
+// *https://www.geeksforgeeks.org/problems/transform-to-sum-tree/1
 
 #include<iostream>
 #include<queue>
@@ -54,7 +56,7 @@ int height(tree*root)
     int maxH= max(lheight, rheigth) +1;
     return maxH;
 }
-    bool isBalanced(tree* root) {
+bool isBalanced(tree* root) {
         if(root==NULL)
         {
             return true;
