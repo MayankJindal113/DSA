@@ -1,6 +1,7 @@
 // *marked ko doobara karo zarur
 
 String : 242 - Valid Anagram
+*Encode and Decode string : https://neetcode.io/problems/string-encode-and-decode
 
 Linked List :
 206 Reverse a List
@@ -21,6 +22,7 @@ Backtracking :
 51* - N-Queens
 
 HashMap : 
+Neetcode : *https://neetcode.io/problems/top-k-elements-in-list
 GFG : UNION OF 2 LINKED LISTS : https://www.geeksforgeeks.org/problems/union-of-two-linked-list/1 - Read it once and think about the solution
 242 - Valid Anagram
 GFG : *https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1

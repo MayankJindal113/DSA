@@ -1,0 +1,4 @@
+Dual Tables : Dummy tables in SQL
+print a table without using 'FROM'
+> select now ();
+> select ucase ('mayank');
