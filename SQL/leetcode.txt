@@ -9,3 +9,8 @@ https://leetcode.com/problems/article-views-i?envType=study-plan-v2&envId=top-sq
 https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/?envType=study-plan-v2&envId=top-sql-50
 
 *2356 : https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/
+
+*1070 : https://leetcode.com/problems/product-sales-analysis-iii/description/?envType=study-plan-v2&envId=top-sql-50
+
+619 : https://leetcode.com/problems/biggest-single-number/?envType=study-plan-v2&envId=top-sql-50
+

@@ -2,3 +2,18 @@ Dual Tables : Dummy tables in SQL
 print a table without using 'FROM'
 > select now ();
 > select ucase ('mayank');
+
+
+select class from courses
+group by class having COUNT (*) > 4;
+The above query is incorrect find why ?
+
+
+
+# Bcz we cant give space between the fucnction name and its value ;
+correct would be using: COUNT(*)
+
+# *Each derived table must have its own alias;
+i.e : Each table returned by a sub query should be assigned a name
+Eg :
+select num from (select num from tabel_name group by num) as num;
