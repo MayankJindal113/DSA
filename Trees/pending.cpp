@@ -1,6 +1,7 @@
 // HW
 // Do all these using iterative method : Pre/Post/In order
-// HW: Preorder and Postorder given : Construct the tree
+// Preorder and Postorder given : Construct the tree
+//  Solve the HW assignment questions
 
 
 
